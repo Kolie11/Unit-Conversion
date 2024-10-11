@@ -1,0 +1,108 @@
+body {
+    font-family: poppins, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #003B36;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.container {
+    width: 550px;
+    height: 855px;
+    background-color: #b69dbb6b;
+    box-shadow: 0 0 10px black;
+}
+
+
+
+.form-el {
+    width: 550px;
+    height: 285px;
+    background-color: #2C0E37;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    width: 117px;
+    height: 83px;
+    background: none;
+    outline: none;
+    border: 1px solid #FEF9FF;
+    border-radius: 5px;
+    color: #FEF9FF;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.form-el button {
+    border: none;
+    background-color: #708D81;
+    color: #FEF9FF;
+    margin-top: 20px;
+    display: inline-block;
+    width: 117px;
+    height: 42px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease-in .3s;
+}
+
+button:hover{
+    background-color: #9368B7;
+}
+
+.form-el p{
+    font-size: 1.1rem;
+    color: #fff;
+    display: none;
+    position: absolute;
+  left: 650px;
+  /* right: 15px; */
+  bottom: -15px;
+top: 20px;
+
+  animation: myName 2s
+}
+
+@keyframes myName {
+100% {
+  transform: translateX(100px) ;
+  }
+}
+
+.list-container {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.list-container li {
+    padding: 25px 0;
+    margin: 25px auto;
+    width: 500px;
+    height: 108.57px;
+    background-color: #FEF9FF;
+    font-size: 1rem;
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+}
+
+
+
